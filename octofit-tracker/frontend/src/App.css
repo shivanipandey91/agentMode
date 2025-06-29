@@ -1,0 +1,149 @@
+
+.App {
+  text-align: center;
+  background: linear-gradient(135deg, #f0f8ff 0%, #e0e7ff 100%);
+  min-height: 100vh;
+}
+
+
+.App-logo {
+  height: 60px;
+  margin-right: 16px;
+  vertical-align: middle;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+.App-header {
+  background-color: #4682b4;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #fff;
+}
+
+
+.App-link {
+  color: #0f0be4;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.App-link:hover {
+  color: #f0f8ff;
+  text-decoration: underline;
+}
+
+/* Navigation styles */
+.navbar {
+  background-color: #4682b4 !important;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.navbar-brand, .navbar-nav .nav-link {
+  color: #fff !important;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.navbar-brand img {
+  height: 40px;
+  margin-right: 10px;
+}
+.navbar-nav .nav-link:hover {
+  color: #f0f8ff !important;
+}
+
+/* Table styles */
+table {
+  width: 90%;
+  margin: 1rem auto;
+  border-collapse: collapse;
+  background-color: #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+th, td {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  text-align: left;
+  font-size: 1rem;
+}
+th {
+  background-color: #4682b4;
+  color: white;
+  font-size: 1.2rem;
+}
+tr:nth-child(even) {
+  background-color: #f0f8ff;
+}
+tr:hover {
+  background-color: #e0ffff;
+}
+
+/* Heading styles */
+h1, h2, h3, h4, h5, h6 {
+  color: #00008b;
+  font-weight: bold;
+}
+
+/* Button styles */
+.btn, button {
+  background-color: #4682b4;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.btn:hover, button:hover {
+  background-color: #5a9bd4;
+}
+
+/* Card styles */
+.card {
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  border-radius: 12px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background: #fff;
+  max-width: 900px;
+}
+
+/* Modal styles */
+.modal-content {
+  border-radius: 16px;
+}
+
+/* Form styles */
+.form-control, .form-select {
+  border-radius: 8px;
+  border: 1px solid #4682b4;
+}
+
+/* Custom octofit colors */
+.octofit-accent {
+  color: #4682b4;
+}
+.octofit-bg {
+  background-color: #f0f8ff;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
